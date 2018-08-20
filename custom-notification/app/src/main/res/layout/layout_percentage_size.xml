@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:gravity="center_horizontal"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+
+    <com.noti.ArcProgressView
+		android:id="@+id/ramProgressBar"
+		android:layout_width="24dp"
+		android:layout_height="24dp"/>
+
+    <TextView
+		android:id="@+id/percentage_text"
+		android:textSize="10dp"
+		android:textColor="@android:color/white"
+		android:gravity="center"
+        
+		android:layout_width="24dp"
+		android:layout_height="24dp"
+		android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@android:color/black"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="64dp">
+
+    <LinearLayout
+        android:id="@+id/layout_home"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+
+        <ImageView
+            android:id="@+id/btn_home"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@mipmap/ic_notification_bar_home"/>
+
+        <TextView
+            android:layout_marginTop="6dp"
+            android:id="@+id/tv_home"
+            android:textColor="@android:color/white"
+            android:text="Home"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:background="#ffffff"
+        android:alpha="0.2"
+        android:layout_width="0.5dp"
+        android:layout_height="28dp"/>
+
+    <LinearLayout
+        android:id="@+id/layout_junk"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/btn_junk"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@mipmap/ic_notification_bar_junk"/>
+
+        <TextView
+            android:id="@+id/tv_junk"
+            android:layout_marginTop="6dp"
+            android:text="Junk"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:background="#ffffff"
+        android:alpha="0.2"
+        android:layout_width="0.5dp"
+        android:layout_height="28dp"/>
+
+    <LinearLayout
+        android:id="@+id/layout_boost"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_boost"
+            android:layout_width="24dp"
+            android:layout_height="24dp" />
+
+        <TextView
+            android:id="@+id/tv_boost"
+            android:layout_marginTop="6dp"
+            android:textColor="@android:color/white"
+            android:text="Boost"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ImageView
+        android:background="#ffffff"
+        android:alpha="0.2"
+        android:layout_width="0.5dp"
+        android:layout_height="28dp"/>
+
+    <LinearLayout
+        android:id="@+id/layout_cpu"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_cpu"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@mipmap/ic_notification_bar_cpu"/>
+
+        <TextView
+            android:id="@+id/tv_cpu"
+            android:layout_marginTop="6dp"
+            android:textColor="@android:color/white"
+            android:text="Cpu"
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
