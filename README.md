@@ -1,5 +1,5 @@
 # custom-notification
-给通知加自定义View然后定时更新自定义View，如下图所示：  
+给通知加自定义View然后定时更新自定义View，如下图所示：
 ![image](https://github.com/leihupqrst/custom-notification/blob/master/notification_icon.png)
 使用ArcProgressView显示手机内存用量，ArcProgressView为自定义View  
 
