@@ -7,5 +7,5 @@
 1、新建RelativeLayout   
 2、把自定义View加进去   
 3、View转成Bitmap  
-4、给ImageView设置图片SetBitmap()
+4、给ImageView设置图片SetBitmap()  
 5、更新进度  
