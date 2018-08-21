@@ -1,9 +1,9 @@
 # custom-notification
-给通知加自定义View然后定时更新自定义View，如下图所示：
-https://github.com/leihupqrst/custom-notification/blob/master/notification_icon.png
-使用ArcProgressView显示手机内存用量，ArcProgressView为自定义View
+给通知加自定义View然后定时更新自定义View，如下图所示：  
+https://github.com/leihupqrst/custom-notification/blob/master/notification_icon.png?raw=true  
+使用ArcProgressView显示手机内存用量，ArcProgressView为自定义View  
 
-步骤
+步骤  
 1、新建RelativeLayout 
 2、把自定义View加进去 
 3、View转成Bitmap
